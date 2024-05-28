@@ -1,0 +1,47 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 60em;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 2em;
+    margin: 1em;
+  }
+  
+  #green {
+    background-color: #8ffda7;
+    grid-column: 1/4;
+  }
+  
+  #orange {
+    background-color: #ffc788;
+    grid-column: 1/4;
+  }
+  
+  #yellow {
+    background-color: #ffff92;
+    
+  }
+  
+  #red {
+    background-color: #ff919c;
+  }
+  
+  #blue {
+    background-color: #98d2ff;
+    
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    padding: 1em;
+    display: inline-block;
+    margin: 1em;
+  }
+  
